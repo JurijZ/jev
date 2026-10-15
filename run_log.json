@@ -1,0 +1,221 @@
+{
+  "target": "red car",
+  "image": "cars2.jpg",
+  "size_px": [
+    1300,
+    957
+  ],
+  "config": {
+    "grid": 3,
+    "overlap": 0.15,
+    "pad": 0.0,
+    "min_confidence": 0.3,
+    "noul_threshold": 0.3,
+    "iou_threshold": 0.5
+  },
+  "tiles": [
+    {
+      "tile": "tile_0_0",
+      "noul": 0.11,
+      "confidence": 0.06,
+      "box_in_tile": [
+        0.65,
+        0.78,
+        0.95,
+        0.96
+      ],
+      "box_in_image": [
+        0.2654,
+        0.3185,
+        0.3879,
+        0.392
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.11)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.78, bottom=0.96, left=0.65, right=0.95), confidence=0.06)"
+      },
+      "status": "rejected: presence below threshold"
+    },
+    {
+      "tile": "tile_0_1",
+      "noul": 0.15,
+      "confidence": 0.05,
+      "box_in_tile": [
+        0.84,
+        0.13,
+        0.96,
+        0.97
+      ],
+      "box_in_image": [
+        0.6643,
+        0.0531,
+        0.7223,
+        0.3961
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.15)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.13, bottom=0.97, left=0.84, right=0.96), confidence=0.05)"
+      },
+      "status": "rejected: presence below threshold"
+    },
+    {
+      "tile": "tile_0_2",
+      "noul": 0.5,
+      "confidence": 0.39,
+      "box_in_tile": [
+        0.58,
+        0.45,
+        0.81,
+        0.76
+      ],
+      "box_in_image": [
+        0.8285,
+        0.1837,
+        0.9224,
+        0.3103
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.5)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.45, bottom=0.76, left=0.58, right=0.81), confidence=0.39)"
+      },
+      "status": "kept"
+    },
+    {
+      "tile": "tile_1_0",
+      "noul": 0.3,
+      "confidence": 0.05,
+      "box_in_tile": [
+        0.35,
+        0.11,
+        0.56,
+        0.99
+      ],
+      "box_in_image": [
+        0.1429,
+        0.3115,
+        0.2287,
+        0.7368
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.3)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.11, bottom=0.99, left=0.35, right=0.56), confidence=0.05)"
+      },
+      "status": "rejected: confidence below threshold"
+    },
+    {
+      "tile": "tile_1_1",
+      "noul": 0.08,
+      "confidence": 0.09,
+      "box_in_tile": [
+        0.36,
+        0.58,
+        0.8,
+        0.99
+      ],
+      "box_in_image": [
+        0.4323,
+        0.5387,
+        0.645,
+        0.7368
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.08)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.58, bottom=0.99, left=0.36, right=0.8), confidence=0.09)"
+      },
+      "status": "rejected: presence below threshold"
+    },
+    {
+      "tile": "tile_1_2",
+      "noul": 0.49,
+      "confidence": 0.21,
+      "box_in_tile": [
+        0.65,
+        0.04,
+        0.79,
+        0.25
+      ],
+      "box_in_image": [
+        0.8571,
+        0.2777,
+        0.9143,
+        0.3792
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.49)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.04, bottom=0.25, left=0.65, right=0.79), confidence=0.21)"
+      },
+      "status": "rejected: confidence below threshold"
+    },
+    {
+      "tile": "tile_2_0",
+      "noul": 0.96,
+      "confidence": 0.58,
+      "box_in_tile": [
+        0.34,
+        0.3,
+        0.68,
+        0.77
+      ],
+      "box_in_image": [
+        0.1388,
+        0.7142,
+        0.2777,
+        0.9061
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.96)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.3, bottom=0.77, left=0.34, right=0.68), confidence=0.58)"
+      },
+      "status": "kept"
+    },
+    {
+      "tile": "tile_2_1",
+      "noul": 0.9,
+      "confidence": 0.28,
+      "box_in_tile": [
+        0.01,
+        0.05,
+        0.09,
+        0.55
+      ],
+      "box_in_image": [
+        0.2632,
+        0.6121,
+        0.3018,
+        0.8163
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.9)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.05, bottom=0.55, left=0.01, right=0.09), confidence=0.28)"
+      },
+      "status": "rejected: confidence below threshold"
+    },
+    {
+      "tile": "tile_2_2",
+      "noul": 0.31,
+      "confidence": 0.87,
+      "box_in_tile": [
+        0.01,
+        0.01,
+        0.14,
+        0.66
+      ],
+      "box_in_image": [
+        0.5958,
+        0.5958,
+        0.6488,
+        0.8612
+      ],
+      "raw": {
+        "present": "NoulAnswer(type='noul', noul=0.31)",
+        "box": "BoxAnswer(type='box', box=BoxCoordinates(top=0.01, bottom=0.66, left=0.01, right=0.14), confidence=0.87)"
+      },
+      "status": "kept"
+    }
+  ],
+  "kept": [
+    "tile_2_2",
+    "tile_2_0",
+    "tile_0_2"
+  ]
+}
